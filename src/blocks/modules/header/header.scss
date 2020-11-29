@@ -1,0 +1,27 @@
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+.logo {
+    position: relative;
+    text-align: center;
+    margin: 50px;
+    background: url(../../../img/logo.png) no-repeat;
+    background-size: 12%;
+    &::after {
+        content: url(../../../img/logo.png);
+        position: absolute;
+        top: 20%;
+        right: 20%;
+        opacity: 50%;
+    }
+}
+.text {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 100px;
+    color: rgb(221, 72, 164);
+}
